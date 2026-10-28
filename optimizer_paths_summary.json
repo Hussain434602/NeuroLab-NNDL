@@ -1,0 +1,54 @@
+{
+  "rosenbrock": {
+    "sgd": {
+      "lr": 0.0002,
+      "final_f": 4.179065028769001,
+      "dist_to_optimum": 2.0449435157234315,
+      "steps_to_f_below_1e-2": null
+    },
+    "momentum": {
+      "lr": 5e-05,
+      "final_f": 0.6558769099760988,
+      "dist_to_optimum": 1.2605848440427145,
+      "steps_to_f_below_1e-2": null
+    },
+    "rmsprop": {
+      "lr": 0.005,
+      "final_f": 0.005912529074163818,
+      "dist_to_optimum": 0.048613293798864164,
+      "steps_to_f_below_1e-2": 1860
+    },
+    "adam": {
+      "lr": 0.02,
+      "final_f": 3.1482636461509713e-11,
+      "dist_to_optimum": 1.2555728244685481e-05,
+      "steps_to_f_below_1e-2": 1247
+    }
+  },
+  "beale": {
+    "sgd": {
+      "lr": 0.001,
+      "final_f": 0.00998780324066246,
+      "dist_to_optimum": 0.22807674906050993,
+      "steps_to_f_below_1e-2": 2999
+    },
+    "momentum": {
+      "lr": 0.0002,
+      "final_f": 0.000764119483535384,
+      "dist_to_optimum": 0.06870174548790674,
+      "steps_to_f_below_1e-2": 1393
+    },
+    "rmsprop": {
+      "lr": 0.05,
+      "final_f": 0.022678910455662962,
+      "dist_to_optimum": 0.05516647898383221,
+      "steps_to_f_below_1e-2": 128
+    },
+    "adam": {
+      "lr": 0.1,
+      "final_f": 5.130677371847596e-30,
+      "dist_to_optimum": 5.950836838078908e-15,
+      "steps_to_f_below_1e-2": 281
+    }
+  }
+}

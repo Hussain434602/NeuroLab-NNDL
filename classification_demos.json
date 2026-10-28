@@ -1,0 +1,90 @@
+{
+  "boundaries": {
+    "moons/tanh": 0.97,
+    "circles/tanh": 1.0,
+    "spiral/tanh": 1.0,
+    "moons/relu": 0.97,
+    "circles/relu": 1.0,
+    "spiral/relu": 1.0
+  },
+  "optimizers": {
+    "moons": {
+      "sgd": {
+        "lr": 0.1,
+        "final_val_loss": 0.09475317501420495,
+        "val_acc": 0.96,
+        "epochs_to_loss_below_0.2": 26
+      },
+      "momentum": {
+        "lr": 0.03,
+        "final_val_loss": 0.09201584758588298,
+        "val_acc": 0.97,
+        "epochs_to_loss_below_0.2": 12
+      },
+      "rmsprop": {
+        "lr": 0.005,
+        "final_val_loss": 0.10885970985661839,
+        "val_acc": 0.97,
+        "epochs_to_loss_below_0.2": 11
+      },
+      "adam": {
+        "lr": 0.01,
+        "final_val_loss": 0.08878398907388395,
+        "val_acc": 0.97,
+        "epochs_to_loss_below_0.2": 8
+      }
+    },
+    "circles": {
+      "sgd": {
+        "lr": 0.1,
+        "final_val_loss": 0.015366395888087523,
+        "val_acc": 1.0,
+        "epochs_to_loss_below_0.2": 28
+      },
+      "momentum": {
+        "lr": 0.03,
+        "final_val_loss": 0.008482882181519052,
+        "val_acc": 1.0,
+        "epochs_to_loss_below_0.2": 12
+      },
+      "rmsprop": {
+        "lr": 0.005,
+        "final_val_loss": 0.001697012731386707,
+        "val_acc": 1.0,
+        "epochs_to_loss_below_0.2": 16
+      },
+      "adam": {
+        "lr": 0.01,
+        "final_val_loss": 0.0022151439926270107,
+        "val_acc": 1.0,
+        "epochs_to_loss_below_0.2": 10
+      }
+    },
+    "spiral": {
+      "sgd": {
+        "lr": 0.1,
+        "final_val_loss": 0.676991652754728,
+        "val_acc": 0.71,
+        "epochs_to_loss_below_0.2": null
+      },
+      "momentum": {
+        "lr": 0.03,
+        "final_val_loss": 0.0886834789478148,
+        "val_acc": 0.97,
+        "epochs_to_loss_below_0.2": 107
+      },
+      "rmsprop": {
+        "lr": 0.005,
+        "final_val_loss": 0.5113314089590112,
+        "val_acc": 0.79,
+        "epochs_to_loss_below_0.2": null
+      },
+      "adam": {
+        "lr": 0.01,
+        "final_val_loss": 0.032891052202053774,
+        "val_acc": 1.0,
+        "epochs_to_loss_below_0.2": 84
+      }
+    }
+  }
+}

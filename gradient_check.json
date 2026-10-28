@@ -1,0 +1,271 @@
+{
+  "threshold": 1e-05,
+  "worst": 8.324233006351217e-09,
+  "passed": true,
+  "rows": [
+    {
+      "layer": "Activation identity",
+      "param": "input",
+      "rel_error": 6.485564591687293e-11,
+      "passed": true
+    },
+    {
+      "layer": "Activation sigmoid",
+      "param": "input",
+      "rel_error": 3.54550082562326e-10,
+      "passed": true
+    },
+    {
+      "layer": "Activation tanh",
+      "param": "input",
+      "rel_error": 7.021871163151509e-11,
+      "passed": true
+    },
+    {
+      "layer": "Activation relu",
+      "param": "input",
+      "rel_error": 9.388087436488952e-11,
+      "passed": true
+    },
+    {
+      "layer": "Activation leaky_relu",
+      "param": "input",
+      "rel_error": 1.3045208377798469e-10,
+      "passed": true
+    },
+    {
+      "layer": "Activation softmax",
+      "param": "input",
+      "rel_error": 2.5147249249800784e-10,
+      "passed": true
+    },
+    {
+      "layer": "Loss mse",
+      "param": "prediction",
+      "rel_error": 3.221163847575471e-10,
+      "passed": true
+    },
+    {
+      "layer": "Loss cross_entropy",
+      "param": "prediction",
+      "rel_error": 4.0625584402994365e-11,
+      "passed": true
+    },
+    {
+      "layer": "[regression/sigmoid] Dense 1 (5x7)",
+      "param": "W",
+      "rel_error": 8.267180336665269e-09,
+      "passed": true
+    },
+    {
+      "layer": "[regression/sigmoid] Dense 1 (5x7)",
+      "param": "b",
+      "rel_error": 8.324233006351217e-09,
+      "passed": true
+    },
+    {
+      "layer": "[regression/sigmoid] Dense 2 (7x6)",
+      "param": "W",
+      "rel_error": 3.0148508349968314e-09,
+      "passed": true
+    },
+    {
+      "layer": "[regression/sigmoid] Dense 2 (7x6)",
+      "param": "b",
+      "rel_error": 1.2789577658177261e-09,
+      "passed": true
+    },
+    {
+      "layer": "[regression/sigmoid] Dense 3 (6x3)",
+      "param": "W",
+      "rel_error": 3.507316706741676e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/sigmoid] Dense 3 (6x3)",
+      "param": "b",
+      "rel_error": 2.0184110787208217e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/tanh] Dense 1 (5x7)",
+      "param": "W",
+      "rel_error": 3.7331611494104164e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/tanh] Dense 1 (5x7)",
+      "param": "b",
+      "rel_error": 4.3429687449858113e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/tanh] Dense 2 (7x6)",
+      "param": "W",
+      "rel_error": 4.346585187237443e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/tanh] Dense 2 (7x6)",
+      "param": "b",
+      "rel_error": 2.0052511948964347e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/tanh] Dense 3 (6x3)",
+      "param": "W",
+      "rel_error": 1.516591543138576e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/tanh] Dense 3 (6x3)",
+      "param": "b",
+      "rel_error": 1.5238929917293143e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/relu] Dense 1 (5x7)",
+      "param": "W",
+      "rel_error": 3.333175311542469e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/relu] Dense 1 (5x7)",
+      "param": "b",
+      "rel_error": 5.391932027633359e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/relu] Dense 2 (7x6)",
+      "param": "W",
+      "rel_error": 2.405200120899221e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/relu] Dense 2 (7x6)",
+      "param": "b",
+      "rel_error": 4.334023664395859e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/relu] Dense 3 (6x3)",
+      "param": "W",
+      "rel_error": 8.230002479233509e-11,
+      "passed": true
+    },
+    {
+      "layer": "[regression/relu] Dense 3 (6x3)",
+      "param": "b",
+      "rel_error": 9.647475940313878e-11,
+      "passed": true
+    },
+    {
+      "layer": "[regression/leaky_relu] Dense 1 (5x7)",
+      "param": "W",
+      "rel_error": 3.8849694715758197e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/leaky_relu] Dense 1 (5x7)",
+      "param": "b",
+      "rel_error": 4.010739573873974e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/leaky_relu] Dense 2 (7x6)",
+      "param": "W",
+      "rel_error": 5.840054154533226e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/leaky_relu] Dense 2 (7x6)",
+      "param": "b",
+      "rel_error": 4.3726588793620906e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/leaky_relu] Dense 3 (6x3)",
+      "param": "W",
+      "rel_error": 1.3071504681110881e-10,
+      "passed": true
+    },
+    {
+      "layer": "[regression/leaky_relu] Dense 3 (6x3)",
+      "param": "b",
+      "rel_error": 1.8278739602053568e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/tanh] Dense 1 (5x7)",
+      "param": "W",
+      "rel_error": 1.1634200787778916e-09,
+      "passed": true
+    },
+    {
+      "layer": "[classification/tanh] Dense 1 (5x7)",
+      "param": "b",
+      "rel_error": 2.332356916992206e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/tanh] Dense 2 (7x6)",
+      "param": "W",
+      "rel_error": 1.5798163441962662e-09,
+      "passed": true
+    },
+    {
+      "layer": "[classification/tanh] Dense 2 (7x6)",
+      "param": "b",
+      "rel_error": 3.9043686312603286e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/tanh] Dense 3 (6x3)",
+      "param": "W",
+      "rel_error": 4.422067224064662e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/tanh] Dense 3 (6x3)",
+      "param": "b",
+      "rel_error": 1.5784823531736014e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/relu] Dense 1 (5x7)",
+      "param": "W",
+      "rel_error": 7.095985210502216e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/relu] Dense 1 (5x7)",
+      "param": "b",
+      "rel_error": 5.663823424987598e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/relu] Dense 2 (7x6)",
+      "param": "W",
+      "rel_error": 1.041381695767747e-09,
+      "passed": true
+    },
+    {
+      "layer": "[classification/relu] Dense 2 (7x6)",
+      "param": "b",
+      "rel_error": 2.607775474370861e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/relu] Dense 3 (6x3)",
+      "param": "W",
+      "rel_error": 2.0934214710408316e-10,
+      "passed": true
+    },
+    {
+      "layer": "[classification/relu] Dense 3 (6x3)",
+      "param": "b",
+      "rel_error": 1.6746678309418821e-10,
+      "passed": true
+    }
+  ]
+}
